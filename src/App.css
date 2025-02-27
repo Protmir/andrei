@@ -1,0 +1,68 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.container {
+  background: linear-gradient(45deg, #ffd700, #ff6b6b);
+  padding: 2rem;
+  border-radius: 15px;
+  font-family: 'Comic Sans MS', cursive;
+  text-align: center;
+}
+
+.header {
+  color: #2d3436;
+  margin-bottom: 1.5rem;
+}
+
+.versionBadge {
+  font-size: 0.8em;
+  margin-left: 8px;
+}
+
+.projectList {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.projectItem {
+  margin: 15px 0;
+}
+
+.projectIcon {
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+.wineButton {
+  background: #2d3436;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 15px 0;
+}
+
+.wineButton:hover {
+  opacity: 0.9;
+}
+
+.warning {
+  color: #d63031;
+  font-weight: bold;
+}
+
+.footer {
+  margin-top: 30px;
+}
+
+.footerList {
+  text-align: left;
+  max-width: 500px;
+  margin: 0 auto;
+}
